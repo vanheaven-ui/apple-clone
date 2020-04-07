@@ -1,0 +1,222 @@
+/* GENERAL STYLE RULE START */
+
+* {
+  box-sizing: border-box;
+}
+
+/* GENERAL STYLE RULE END */
+
+/* NAV STYLE RULE START */
+
+.nav-bar {
+  position: relative;
+  top: 86px;
+  width: 1440px;
+}
+
+.nav-container {
+  height: 36px;
+  line-height: 36px;
+  position: absolute;
+  top: 0;
+  left: 180px;
+  width: 980px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  z-index: 1;
+  background: beige;
+}
+  
+  .nav-items li {
+    display: inline-block;
+    height: 36px;
+    border-width: 0 2px 0 1px;
+    border-style: solid;
+  }
+  
+  .nav-items li a {
+      padding: 5px 15px;
+  }
+  
+/* NAV STYLE RULE END */
+
+/* ARTICLE STYLE RULE START */
+
+.top {
+  position: absolute;
+  top: 0;
+  bottom: 292px;
+  height: 539px;
+  width: 1440px;
+}
+
+.hero {
+  background: url(./images/your_verse_hero.jpg) 50% 100% no-repeat;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  right: auto;
+  left: 50%;
+  margin-left: -760px;
+}
+
+header {
+  position: absolute;
+  top: 28%;
+  left: 0;
+  right: 0;
+}
+
+.heading {
+  width: 980px;
+  height: 104px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heading a {
+  background: 
+    url(https://web.archive.org/web/20140301004336im_/http://images.apple.com/home/images/your_verse_title_small.png) 
+    50% 50% no-repeat;
+  height: 104px;
+  width: 980px;
+  display: block;
+}
+
+.sub-heading {
+  height: 82px;
+  width: 980px;
+  margin: 0 auto 27px;
+}
+
+.sub-heading a {
+  background: 
+    url(https://web.archive.org/web/20140301004340im_/http://images.apple.com/home/images/your_verse_subhead_small.png) 
+    0 0 no-repeat;
+  height: 82px;
+  width: 980px;
+  display: block;
+  margin-top: -10px;
+}
+
+.video-link {
+  text-align: center;
+}
+
+.video-link-items a {
+  background: 
+    url(https://web.archive.org/web/20140301004341im_/http://images.apple.com/home/images/cta_your_verse_27pt.png) 
+    50% 0 no-repeat;
+  display: block;
+  height: 29px;
+}
+
+/* ARTICLE STYLE RULE END */
+
+/* ASIDE STYLE RULE START */
+
+.ext-links {
+  position: relative;
+  top: 535px;
+  height: 200px; 
+}
+
+.aside-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  min-width: 1350px;
+}
+
+.ext-links-1 {
+  background: url(./images/promo_iphone5s.jpg) 0 0 no-repeat;
+  height: 200px;
+  display: block;
+}
+
+.ext-links-2 {
+  background: url(./images/promo_iphone5c.jpg) 0 0 no-repeat;
+  height: 200px;
+  display: block;
+}
+
+.ext-links-3 {
+  background: url(./images/promo_30_years.jpg) 0 0 no-repeat;
+  height: 200px;
+  display: block;
+}
+
+.ext-links-4 {
+  background: url(./images/promo_supplier_responsibility.jpg) 0 0 no-repeat;
+  height: 200px;
+  display: block;
+}
+
+/* ASIDE STYLE RULE END */
+
+/* FOOTER STYLE RULE START */
+
+footer {
+  position: absolute;
+  top: 736px;
+  left: 0;
+  right: 0;
+  height: 90px;
+  font-size: 14px;
+  line-height: 1.2;
+  font: 10px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.footer-wrapper {
+  width: 980px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 16px 0 42px;
+  color: #6e6e6e;;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: .4px;
+}
+
+.footer-wrapper a {
+    color: #0088cc;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+
+.footer-right {
+  padding-top: 5px;   
+}
+
+.footer-right li {
+  float: left;
+}
+
+.footer-right li a {
+  padding: 0 5px;
+}
+
+.lang-img {
+  padding-left: 1px ! important;
+}
+
+.footer-copyright {
+  padding-top: 15px;
+  display: flex;
+}
+
+.inline li {
+    float: left;
+}
+
+.inline li a {
+  padding: 0 5px;
+}
+
+/* FOOTER STYLE RULE END */
