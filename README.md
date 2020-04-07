@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/vanheaven-ui/apple-clone/dev-branch/index.html)
+[Live Demo Link](https://raw.githack.com/vanheaven-ui/apple-clone/dev-branch/index.htmll)
 
 
 ## Getting Started
