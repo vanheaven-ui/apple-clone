@@ -28,13 +28,49 @@ body {
   height: 36px;
   line-height: 36px;
   position: absolute;
+  display: flex;
   top: 0;
   left: 180px;
   width: 980px;
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  background: #000;
+  background: linear-gradient(left, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, 0.45) 100%);
+  background: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0.2%, rgba(0, 0, 0, 0) 99%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(left, #666, #5e5e5e 50%, #707070 51%, #808080);
   z-index: 1;
-  background: beige;
+}
+
+.nav-items-icon {
+  background: url(./images/nav-items.png) 50% 0, no-repeat;
+}
+
+.nav-items-store {
+  background: url(./images/nav-items.png) 50% 15%, no-repeat;
+}
+
+.nav-items-mac {
+  background: url(./images/nav-items.png) 50% 28%, no-repeat;
+}
+
+.nav-items-ipod {
+  background: url(./images/nav-items.png) 50% 42.5%, no-repeat;
+}
+
+.nav-items-iphone {
+  background: url(./images/nav-items.png) 50% 57%, no-repeat;
+}
+
+.nav-items-ipad {
+  background: url(./images/nav-items.png) 50% 70%, no-repeat;
+}
+
+.nav-items-itunes {
+  background: url(./images/nav-items.png) 50% 85%, no-repeat;
+}
+
+.nav-items-support {
+  background: url(./images/nav-items.png) 50% 99%, no-repeat;
 }
 
 .nav-items li {
@@ -45,7 +81,7 @@ body {
 }
 
 .nav-items li a {
-  padding: 5px 15px;
+  padding: 5px 46px;
 }
 
 /* NAV STYLE RULE END */
