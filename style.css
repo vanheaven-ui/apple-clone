@@ -191,7 +191,12 @@ footer {
 }
 
 .footer-wrapper a {
-    color: #0088cc;
+  color: #0088cc;
+  text-decoration: none;
+}
+
+.footer-wrapper a:hover {
+  text-decoration: underline;
 }
 
 .footer-left {
