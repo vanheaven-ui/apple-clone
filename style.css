@@ -83,7 +83,7 @@ body {
 }
 
 .hov-cls:hover {
-  background: linear-gradient(360deg, rgb(87, 87, 87), rgb(58, 57, 57), #383838, #3f3f3f, #555, #808080), linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, 0.45)), linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 0.5%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, 0.45))
+  background: linear-gradient(360deg, rgb(87, 87, 87), rgb(58, 57, 57), #383838, #3f3f3f, #555, #616060), linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, 0.45)), linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 0.5%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, 0.45))
 }
 
 .nav-items li a {
