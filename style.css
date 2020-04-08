@@ -300,8 +300,12 @@ footer {
   display: flex;
 }
 
-.inline li {
-    float: left;
+.footer-right-inline {
+  float: left;
+}
+
+.left-float {
+  float: left;
 }
 
 .inline li a {
