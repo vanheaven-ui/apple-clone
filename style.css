@@ -20,7 +20,7 @@ body {
 
 .nav-bar {
   position: relative;
-  top: 86px;
+  top: 84px;
   width: 1440px;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .nav-items-store {
-  background: url(./images/nav-items.png) 50% 13%, no-repeat;
+  background: url(./images/nav-items.png) 50% 13.4%, no-repeat;
 }
 
 .nav-items-mac {
@@ -60,15 +60,15 @@ body {
 }
 
 .nav-items-ipad {
-  background: url(./images/nav-items.png) 50% 71%, no-repeat;
+  background: url(./images/nav-items.png) 50% 71.5%, no-repeat;
 }
 
 .nav-items-itunes {
-  background: url(./images/nav-items.png) 50% 86%, no-repeat;
+  background: url(./images/nav-items.png) 50% 86.5%, no-repeat;
 }
 
 .nav-items-support {
-  background: url(./images/nav-items.png) 50% 101%, no-repeat;
+  background: url(./images/nav-items.png) 50% 101.5%, no-repeat;
 }
 
 .nav-items li {
@@ -92,7 +92,6 @@ body {
   margin: 0 auto;
   padding: 8px 13px;
   border-top: 1px solid #797979;
-  border-right: 1px solid #5d5d5d;
   border-bottom: 1px solid #575757;
   border-left: 1px solid #929292;
 }
@@ -103,15 +102,24 @@ body {
   position: relative;
 }
 
-#search-text {
-  background: url(./images/search.png) 5px 55%;
-  background-size: 20px px;
+input[type="text"] {
+  background: url(./images/search1.png) 5px 55%;
   background-size: 12px 12px;
   background-repeat: no-repeat;
   width: 100%;
   height: auto;
   position: absolute;
   border-radius: 12px;
+  border: 1px inset #5d5d5d;
+}
+
+input[type="text"]:focus {
+  background: url(./images/search.png) 5px 55%, #fff;
+  background-size: 12px 12px;
+  background-repeat: no-repeat;
+  width: 200px;
+  padding: 3px 5px;
+  border: none;
 }
 
 /* NAV STYLE RULE END */
