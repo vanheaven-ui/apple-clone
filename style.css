@@ -141,7 +141,7 @@ input[type="text"]:focus {
   background-size: 12px 12px;
   background-repeat: no-repeat;
   width: 180px;
-  transform: translateX(-20px);
+  transform: translateX(-75px);
   padding: 3px 0 3px 19px;
   border: none;
   color: #000;
@@ -156,7 +156,7 @@ input[type="text"]:focus {
   top: 0;
   bottom: 292px;
   height: 539px;
-  width: 1440px;
+  width: 1407px;
 }
 
 .hero {
