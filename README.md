@@ -1,3 +1,4 @@
+
 # Clone of old version of apple.com 
 
 This project required to clone the old version of the apple.com page using CSS and HTML while observing set stylelint rules. 
@@ -16,7 +17,6 @@ The project required use of gradient backgrounds and a variety of positioning an
 - CSS,
 
 ## Live Demo
-
 [Live Demo Link](https://raw.githack.com/vanheaven-ui/apple-clone/dev-branch/index.html)
 
 ## Getting Started.
@@ -36,7 +36,6 @@ The project required use of gradient backgrounds and a variety of positioning an
 - run npm stylelint <stylesheet file name> in your terminal to ensure consistence style.
 ### Deployment
 - Open the index.html file in your browser.
-
 
 ## Authors
 
