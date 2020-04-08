@@ -16,13 +16,6 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 599px) {
-  .aside-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
 /* GENERAL STYLE RULE END */
 
 /* NAV STYLE RULE START */
@@ -37,7 +30,6 @@ body {
   height: 36px;
   line-height: 36px;
   position: absolute;
-  display: flex;
   top: 0;
   left: 180px;
   width: 980px;
@@ -46,6 +38,21 @@ body {
   background: #5f5f5f;
   background: linear-gradient(360deg, #666, #5e5e5e 50%, #707070 51%, #808080), linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, 0.45)), linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 0.5%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, 0.45));
   z-index: 1;
+}
+
+.nav-items {
+  width: 100%;
+  display: flex;
+}
+
+.nav-items li {
+  display: inline-block;
+  height: 36px;
+  width: 100%;
+  border-top: 1px solid #797979;
+  border-right: 1px solid #5d5d5d;
+  border-bottom: 1px solid #575757;
+  border-left: 1px solid #929292;
 }
 
 .nav-items-icon {
@@ -80,17 +87,6 @@ body {
   background: url(./images/nav-items.png) 50% 101.5%, no-repeat;
 }
 
-.nav-items li:not(:last-child) {
-  display: inline-block;
-  height: 36px;
-  width: 106px;
-  border-top: 1px solid #797979;
-  border-right: 1px solid #5d5d5d;
-  border-bottom: 1px solid #575757;
-  border-left: 1px solid #929292;
-  margin-right: -5px;
-}
-
 .hov-cls:hover {
   background: linear-gradient(360deg, rgb(87, 87, 87), rgb(58, 57, 57), #383838, #3f3f3f, #555, #616060), linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, 0.45)), linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 0.5%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, 0.45));
 }
@@ -100,13 +96,6 @@ body {
 }
 
 .search-area {
-  display: block;
-  width: 132px;
-  height: 36px;
-  margin: 0 auto;
-  position: absolute;
-  top: 0;
-  right: 0;
   padding: 8px 13px;
   border-top: 1px solid #797979;
   border-bottom: 1px solid #575757;
@@ -115,9 +104,9 @@ body {
 
 .search-form {
   width: 100%;
-  height: 23px;
+  height: 20px;
+  display: flex;
   position: relative;
-  top: -1px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 12px;
 }
@@ -128,21 +117,18 @@ input[type="text"] {
   background-repeat: no-repeat;
   width: 100%;
   height: auto;
-  padding: 3px 0 3px 19px;
+  padding: 2px 0 2px 19px;
   color: #fff;
-  position: absolute;
   border-radius: 12px;
   border: 1px inset #5d5d5d;
-  transition: transform, ease-in-out 1s;
+  transition: width 0.3s, ease-in-out;
 }
 
 input[type="text"]:focus {
   background: url(./images/search.png) 5px 55%, #fff;
   background-size: 12px 12px;
   background-repeat: no-repeat;
-  width: 180px;
-  transform: translateX(-75px);
-  padding: 3px 0 3px 19px;
+  width: 170px;
   border: none;
   color: #000;
 }
@@ -227,7 +213,7 @@ header {
 
 .aside-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(337.6px, 500px));
   max-width: 1350px;
 }
 
