@@ -71,7 +71,7 @@ body {
   background: url(./images/nav-items.png) 50% 101.5%, no-repeat;
 }
 
-.nav-items li {
+.nav-items li:not(:last-child) {
   display: inline-block;
   height: 36px;
   width: 106px;
@@ -91,9 +91,13 @@ body {
 }
 
 .search-area {
+  display: block;
   width: 132px;
   height: 36px;
   margin: 0 auto;
+  position: absolute;
+  top: 0;
+  right: 0;
   padding: 8px 13px;
   border-top: 1px solid #797979;
   border-bottom: 1px solid #575757;
