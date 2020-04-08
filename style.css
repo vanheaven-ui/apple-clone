@@ -83,7 +83,7 @@ body {
 }
 
 .hov-cls:hover {
-  background: linear-gradient(360deg, rgb(87, 87, 87), rgb(58, 57, 57), #383838, #3f3f3f, #555, #616060), linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, 0.45)), linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 0.5%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, 0.45))
+  background: linear-gradient(360deg, rgb(87, 87, 87), rgb(58, 57, 57), #383838, #3f3f3f, #555, #616060), linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, 0.45)), linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 0.5%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, 0.45));
 }
 
 .nav-items li a {
@@ -147,10 +147,10 @@ input[type="text"]:focus {
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 100%;/*
+  width: 100%;
   right: auto;
   left: 50%;
-  margin-left: -760px; */
+  margin-left: -760px;
 }
 
 header {
@@ -167,10 +167,8 @@ header {
   text-align: center;
 }
 
-.heading a {
-  background: 
-    url(./images/h1.png) 
-    50% 50% no-repeat;
+.heading-link {
+  background: url(./images/h1.png) 50% 50%, no-repeat;
   height: 104px;
   width: 980px;
   display: block;
@@ -182,10 +180,8 @@ header {
   margin: 0 auto 27px;
 }
 
-.sub-heading a {
-  background: 
-    url(./images/h2.png) 
-    0 0 no-repeat;
+.sub-heading-link {
+  background: url(./images/h2.png) 0 0, no-repeat;
   height: 82px;
   width: 980px;
   display: block;
@@ -196,10 +192,8 @@ header {
   text-align: center;
 }
 
-.video-link-items a {
-  background: 
-    url(./images/video-link.png) 
-    50% 0 no-repeat;
+.video-link-item {
+  background: url(./images/video-link.png) 50% 0, no-repeat;
   display: block;
   height: 29px;
 }
@@ -211,7 +205,7 @@ header {
 .ext-links {
   position: relative;
   top: 535px;
-  height: 200px; 
+  height: 200px;
 }
 
 .aside-container {
@@ -271,7 +265,7 @@ footer {
   justify-content: space-between;
 }
 
-.footer-wrapper a {
+.footer-link-style {
   color: #08c;
   text-decoration: none;
 }
@@ -288,14 +282,10 @@ footer {
 }
 
 .footer-right {
-  padding-top: 5px;   
+  padding-top: 5px;
 }
 
-.footer-right li {
-  float: left;
-}
-
-.footer-right li a {
+.footer-right-item {
   padding: 0 5px;
 }
 
@@ -310,10 +300,6 @@ footer {
 
 .left-float {
   float: left;
-}
-
-.inline li a {
-  padding: 0 5px;
 }
 
 /* FOOTER STYLE RULE END */
