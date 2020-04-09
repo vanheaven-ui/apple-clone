@@ -17,7 +17,7 @@ The project required use of gradient backgrounds and a variety of positioning an
 - CSS,
 
 ## Live Demo
-[Live Demo Link](https://raw.githack.com/vanheaven-ui/apple-clone/dev-branch/index.html)
+[Live Demo Link](https://raw.githack.com/vanheaven-ui/apple-clone/master/index.html)
 
 ## Getting Started.
  To get a local copy up and running follow these simple example steps.
