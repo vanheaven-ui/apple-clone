@@ -1,7 +1,7 @@
 
 # Clone of old version of apple.com 
 
-This project required to clone the old version of the apple.com page using CSS and HTML while observing set stylelint rules. 
+> This project is about cloning the old version of the apple.com page using CSS and HTML. 
 
 ![screenshot](./images/Screenshot.png)
 
