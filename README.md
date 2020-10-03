@@ -44,7 +44,7 @@ The project required use of gradient backgrounds and a variety of positioning an
 - Github: [@githubhandle](https://github.com/vanheaven-ui)
 - Twitter: [@twitterhandle](https://twitter.com/MworekwaE)
 - Linkedin: [linkedin](https://linkedin.com/in/vanheaven/)
-- Email: [Email](vanheaven6@gmail.com)  
+- Email: [Email](ebtwino718@yahoo.com)  
 
 ## 🤝 Contributing
 
