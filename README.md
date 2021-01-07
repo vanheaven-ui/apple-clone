@@ -1,7 +1,7 @@
 
-# Clone of old version of apple.com 
+# Old Apple Homepage clone 
 
-> This project is about cloning the old version of the apple.com page using CSS and HTML. 
+> This project involves cloning the old version of Apple homepage. 
 
 ![screenshot](./images/Screenshot.png)
 
