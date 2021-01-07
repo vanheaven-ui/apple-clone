@@ -5,7 +5,9 @@
 
 ![screenshot](./images/Screenshot.png)
 
-The project required use of gradient backgrounds and a variety of positioning and display properties. The cloned page was built using block, grid, flex, inline-block display properties with a mix of relative and absolute positioning property values. The cloned page is structured into four sections which include; 
+## About
+
+The project specifications included the use of gradient backgrounds and a variety of positioning and display properties. The cloned page was built using block, grid, flex, inline-block display properties with a mix of relative and absolute positioning property values. The cloned page is structured into four sections which include; 
 - the navigation section (this was positioned to fall within the article section).
 - the article section that wraps the big hero image that was positioned to flow into the top, left and right margins of the display screen.
 - the aside section that wraps the four images of apple product promotions which were positioned as grid items.(these were built to be links to their respective pages).
