@@ -1,5 +1,5 @@
 
-# Old Apple Homepage clone 
+# Old Apple Homepage Clone 
 
 > This project involves cloning the old version of Apple homepage. 
 
@@ -8,10 +8,10 @@
 ## About
 
 The project specifications included the use of gradient backgrounds and a variety of positioning and display properties. The cloned page was built using block, grid, flex, inline-block display properties with a mix of relative and absolute positioning property values. The cloned page is structured into four sections which include; 
-- the navigation section (this was positioned to fall within the article section).
-- the article section that wraps the big hero image that was positioned to flow into the top, left and right margins of the display screen.
-- the aside section that wraps the four images of apple product promotions which were positioned as grid items.(these were built to be links to their respective pages).
-- the footer section which has two sections separated by flex display property on their parent container.
+- The navigation section (this was positioned to fall within the article section).
+- The article section that wraps the big hero image that was positioned to flow into the top, left and right margins of the display screen.
+- The aside section that wraps the four images of apple product promotions which were positioned as grid items.(these were built to be links to their respective pages).
+- The footer section which has two sections separated by flex display property on their parent container.
 
 ## Built With
 
@@ -29,13 +29,13 @@ The project specifications included the use of gradient backgrounds and a variet
 - You need to have npm installed in your local environment.
 ### Setup
 - (OPTIONAL) Fork the repository into your github repository
-- Clone the github repository at [Repo-link](https://github.com/vanheaven-ui/apple-clone) to a desired local envirnment directory.
+- Clone the github repository at [Repo-link](https://github.com/vanheaven-ui/apple-clone) to a desired local environment directory.
 ### Install
 - Open the cloned directory with your code editor of choice.
 ### Usage
 - Make any desired changes to the files in the directory and save changes.
-### Run tests
-- run npm stylelint <stylesheet file name> in your terminal to ensure consistence style.
+### Run Linters
+- run npm stylelint <stylesheet file name> in your terminal to ensure consistent styles.
 ### Deployment
 - Open the index.html file in your browser.
 
