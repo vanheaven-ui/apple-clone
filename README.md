@@ -1,5 +1,5 @@
 
-# Old Apple Homepage Clone 
+# Apple Old Homepage Clone 
 
 > This project involves cloning the old version of Apple homepage. 
 
